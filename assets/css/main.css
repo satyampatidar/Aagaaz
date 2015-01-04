@@ -627,8 +627,8 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #2F3238;
-	padding: 100px 0;
+	background: #999966;
+	padding: 1px 0;
 	position: relative;
 	z-index: 99;
 }
@@ -646,13 +646,14 @@ nav#menu #menu-nav li a:hover {
 }
 
 .title-page .title {
+	text-align: center;
 	font-size: 48px;
-	margin: 0 0 10px 0
+	margin: 0 0 5px 0
 }
 
 .title-page .title-description {
 	font-size: 24px;
-	font-weight: 200;
+	font-weight: 300;
 	margin: 0;
 }
 
@@ -1080,8 +1081,8 @@ nav#menu #menu-nav li a:hover {
 	display: inline-block;
 	margin: 0;
 	color: #55606a;
-	font-size: 38px;
-	line-height: 80px;
+	font-size: 32px;
+	line-height: 70px;
 	
 	opacity: 0.3;
 	filter: alpha(opacity=30);
