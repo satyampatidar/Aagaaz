@@ -112,9 +112,10 @@ hr {
 }
 
 input, button, select, textarea {
-	font-weight: 300;
+	font-weight: 500;
 	font-family: 'Titillium Web', sans-serif;
 	outline: 0;
+	color: #99FF99;
 }
 
 input:focus, 
@@ -775,14 +776,18 @@ nav#menu #menu-nav li a:hover {
 /* ==================================================
    About Section
 ================================================== */
-
+.email{
+	text-decoration: #FF0000;
+	color: #FF0000;
+}
 .profile-name {
 	margin-bottom: 15px;
 	text-align: left;	
 }
 
 .profile-description {
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
+	color: #990000;	
 }
 
 .image-wrap {
@@ -845,7 +850,7 @@ nav#menu #menu-nav li a:hover {
 	height: 32px;
 	top: 50%;
 	margin: -16px 0 0 0;
-	color: #FFFFFF;
+	color: #990000;
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 32px;
